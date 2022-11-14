@@ -22,6 +22,7 @@ set -gx EDITOR nvim
 set -gx PATH bin $PATH
 set -gx PATH ~/bin $PATH
 set -gx PATH ~/.local/bin $PATH
+set -gx PATH /opt/homebrew/bin $PATH
 
 # NodeJS
 set -gx PATH node_modules/.bin $PATH
@@ -30,7 +31,7 @@ set -gx PATH node_modules/.bin $PATH
 set -gx PATH /Applications/flutter/bin $PATH
 
 # Python
-set -gx PYTHON /opt/homebrew/opt/python@3.10/bin/python3
+set -gx PYTHON /opt/homebrew/opt/python/bin/python3
 
 # Go
 set -g GOPATH $HOME/go
